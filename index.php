@@ -15,7 +15,7 @@
          min-height: 100vh;
          }
          header {
-         background-color: #000000; /* Orange background color */
+         background-color: #000000; /* background color */
          color: white;
          text-align: center;
          padding: 1em;
@@ -60,7 +60,7 @@
          border-radius: 8px;
          }
          footer {
-         background-color: #000000; /* Orange background color */
+         background-color: #000000; /* background color */
          color: white;
          text-align: center;
          padding: 1em;
