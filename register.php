@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = $_POST['password'];
     $role = $_POST['role'];
 
-    // Hash password (Anda dapat menggunakan metode hash yang lebih aman)
+    // Hash password
     $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
     // Simpan user baru ke database
