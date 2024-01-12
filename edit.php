@@ -9,7 +9,7 @@ if (!isset($_SESSION['username'])) {
 
 $role = $_SESSION['role'];
 
-// Tambahkan logika untuk meng-handle form edit
+
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['id'])) {
     $id = $_POST['id'];
     $title = $_POST['title'];
@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['id'])) {
     $release_date = $_POST['release_date'];
     $director = $_POST['director'];
 
-    // Tambahkan logika validasi atau sanitasi data jika diperlukan
+
 
     $sql = "UPDATE movies SET title=?, genre=?, release_date=?, director=? WHERE id=?";
     $stmt = $conn->prepare($sql);
