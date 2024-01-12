@@ -33,7 +33,7 @@
          min-height: 100vh;
          }
          header {
-         background-color: #000000; /* Orange background color */
+         background-color: #000000; 
          color: white;
          text-align: center;
          padding: 1em;
@@ -78,7 +78,7 @@
          border-radius: 8px;
          }
          footer {
-         background-color: #000000; /* Orange background color */
+         background-color: #000000; 
          color: white;
          text-align: center;
          padding: 1em;
@@ -103,9 +103,9 @@
       </head>
       <body>
          <?php
-            // Call file connect.php
+            // Call file koneksi.php
             include_once("koneksi.php");
-            // Retrieve all data from "books"
+            // Retrieve all data from "movies"
             $sql = "SELECT * FROM movies";
             $result = $conn->query($sql);
             ?>
