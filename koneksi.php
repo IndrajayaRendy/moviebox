@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "root"; // Ganti dengan username MySQL Anda
-$password = ""; // Ganti dengan password MySQL Anda
+$username = "root"; 
+$password = "";
 $dbname = "movie_db";
 
 // Buat koneksi
